@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(19, 19, 31);
+    padding: 20px 0px 20px 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #8f60fc;
+    z-index: 1;
+  
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+color: #8c68df;
+}
+.p_portifolio{
+    font-size: 30px;
+    cursor: pointer;
+}

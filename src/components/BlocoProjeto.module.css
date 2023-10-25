@@ -1,0 +1,26 @@
+.containerBloco{
+    height: 40vh;
+    width: 65vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #8f60fc;
+    background-color: black;
+    transition: transform 0.3s;
+    cursor: pointer;
+    
+    
+    
+}
+.imgProjeto{
+    width: 70vh;
+    opacity: 0.5;
+}
+.containerBloco:hover{
+    transform: scale(1.1);
+}
+.imgProjeto:hover{
+    opacity: 1;
+
+}
