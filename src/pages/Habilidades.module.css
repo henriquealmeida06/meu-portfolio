@@ -1,11 +1,12 @@
 .containerHabilidades{
-    min-height: 70vh;
+    min-height: 100vh;
     background-color: #13131f;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    padding-top: 150px;
 }
 .quadroHabilidades{
     width: 141vh;

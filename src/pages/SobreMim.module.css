@@ -1,6 +1,6 @@
 .containerSobre{
 
-    height: 71vh;
+    height: 100vh;
     background-color: #13131f;
     display: flex;
     flex-direction: flex;
@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
 }
 .conteudoSobre{
     display: flex;

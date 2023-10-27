@@ -16,9 +16,23 @@ ul{
     display: flex;
     gap: 40px;
     list-style: none;
+    color: inherit;
+    
 }
 li{
     cursor: pointer;
+    
+    
+}
+li a{
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+}
+p a{
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
 }
 li:hover{
 color: #8c68df;

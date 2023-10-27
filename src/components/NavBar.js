@@ -5,14 +5,14 @@ function NavBar(){
     return(
         <nav>
             <div>
-                <p className={styles.p_portifolio}>Portfólio</p>
+                <p className={styles.p_portifolio}><a href='#home'>Portfólio</a></p>
             </div>
             <ul>
-                <li>Página Inicial</li>
-                <li>Sobre mim</li>
-                <li>Habilidades</li>
-                <li>Projetos</li>
-                <li>Contatos</li>
+                <li><a href='#home'>Página Inicial</a></li>
+                <li><a href='#sobre'>Sobre mim</a></li>
+                <li><a href='#habilidades'>Habilidades</a></li>
+                <li><a href='#projetos'>Projetos</a></li>
+                <li><a href='#contatos'>Contatos</a></li>
             </ul>
         </nav>
     )
