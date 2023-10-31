@@ -1,5 +1,5 @@
 import styles from './Home.module.css'
-import Logo from './../assets/img/FotoPrincipal.png'
+import Logo from './../assets/img/fotoPortfolio.jpg'
 import {FaLinkedinIn} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {MdOutlineEmail} from 'react-icons/md'

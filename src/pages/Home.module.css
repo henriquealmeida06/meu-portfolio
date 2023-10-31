@@ -23,7 +23,9 @@
 }
 .imgFoto{
     width: 55vh;
-    border: 1px solid #8f60fc;
+    border: 2px solid #8f60fc;
+    border-radius: 80px;
+    outline: hidden;
     
 }
 .p_ola{
