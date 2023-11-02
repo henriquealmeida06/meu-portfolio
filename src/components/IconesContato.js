@@ -1,18 +1,14 @@
-import styles from './IconesContato.module.css'
-import {MdOutlineEmail} from 'react-icons/md'
+import styles from "./IconesContato.module.css";
+import { MdOutlineEmail } from "react-icons/md";
 
-function IconesContato({icone, categoria, valor}){
-    return(
-        <div className={styles.containerIcones}>
-            
-            <span>{icone}</span>
-            
-            <p className={styles.categoriaContato}>{categoria}</p>
-            <p className={styles.valorContato}>{valor}</p>
-            
+function IconesContato({ icone, categoria, valor, onClick }) {
+  return (
+    <div onClick={onClick} className={styles.containerIcones}>
+      <span>{icone}</span>
 
-
-        </div>
-    )
+      <p className={styles.categoriaContato}>{categoria}</p>
+      <p className={styles.valorContato}>{valor}</p>
+    </div>
+  );
 }
-export default IconesContato
+export default IconesContato;
