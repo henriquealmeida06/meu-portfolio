@@ -9,7 +9,9 @@ import Contato from "./pages/Contato";
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <section>
+        <NavBar />
+      </section>
       <section id="home">
         <Home />
       </section>
