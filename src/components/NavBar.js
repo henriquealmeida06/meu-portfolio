@@ -10,10 +10,6 @@ function NavBar() {
 
   return (
     <nav>
-      <div className={styles.menuResponse} onClick={alternarMenu}>
-        <GiHamburgerMenu />
-      </div>
-
       <p className={styles.p_portifolio}>
         <a href="#home">Portfólio</a>
       </p>

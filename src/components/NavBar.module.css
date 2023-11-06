@@ -52,7 +52,6 @@ li:hover {
   }
   nav {
     display: flex;
-    justify-content: last baseline;
     gap: 20vh;
     align-items: center;
   }
