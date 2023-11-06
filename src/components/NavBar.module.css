@@ -41,9 +41,6 @@ li:hover {
   cursor: pointer;
 }
 @media screen and (min-width: 360px) and (max-width: 800px) {
-  nav {
-    display: block;
-  }
   .menuResponse {
     font-size: 30px;
     display: block;
