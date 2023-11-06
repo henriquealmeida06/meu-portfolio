@@ -13,6 +13,7 @@ nav {
 }
 .menuResponse {
   display: none;
+  cursor: pointer;
 }
 ul {
   display: flex;
@@ -41,6 +42,9 @@ li:hover {
   cursor: pointer;
 }
 @media screen and (min-width: 360px) and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
   .menuResponse {
     font-size: 30px;
     display: block;
@@ -54,5 +58,20 @@ li:hover {
     display: flex;
     gap: 20vh;
     align-items: center;
+  }
+  .menuDesktop {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+  }
+  .menuDesktop.active {
+    transform: translate(0);
   }
 }

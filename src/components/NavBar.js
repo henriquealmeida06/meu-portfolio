@@ -1,15 +1,14 @@
 import styles from "./NavBar.module.css";
-import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useState } from "react";
 
 function NavBar() {
-  const [abrirMenu, setAbrirMenu] = useState(false);
-  function alternarMenu() {
-    setAbrirMenu(!abrirMenu);
-  }
-
   return (
     <nav>
+      <div className={styles.menuResponse}>
+        <GiHamburgerMenu />
+      </div>
+
       <p className={styles.p_portifolio}>
         <a href="#home">Portfólio</a>
       </p>
