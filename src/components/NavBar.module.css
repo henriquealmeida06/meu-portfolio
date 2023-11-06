@@ -9,7 +9,7 @@ nav {
   position: fixed;
   border-bottom: 1px solid #8f60fc;
   z-index: 1;
-  max-width: 100%;
+  width: 100%;
 }
 .menuResponse {
   display: none;
@@ -58,20 +58,7 @@ li:hover {
     display: flex;
     gap: 20vh;
     align-items: center;
-  }
-  .menuDesktop {
-    position: absolute;
-    top: 8vh;
-    right: 0;
-    width: 50vw;
-    height: 92vh;
-    background-color: black;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transform: translateX(100%);
-  }
-  .menuDesktop.active {
-    transform: translate(0);
+    border: 1px solid red;
+    max-width: 130vh;
   }
 }
