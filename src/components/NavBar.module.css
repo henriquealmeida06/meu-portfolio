@@ -39,6 +39,20 @@ li:hover {
 }
 @media screen and (min-width: 360px) and (max-width: 800px) {
   nav {
+    display: block;
+  }
+  .menuResponse {
+    font-size: 30px;
+  }
+  .menuDesktop {
     display: none;
+  }
+  .p_portifolio {
+  }
+  nav {
+    display: flex;
+    justify-content: last baseline;
+    gap: 20vh;
+    align-items: center;
   }
 }

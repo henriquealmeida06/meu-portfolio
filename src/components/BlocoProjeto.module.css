@@ -65,3 +65,17 @@ span {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+}
+.containerBloco {
+  height: 20vh;
+  width: 45vh;
+}
+.imgProjeto {
+  width: 46vh;
+  opacity: 0.5;
+}
+.tecnologia1 {
+  font-size: 2px;
+}
