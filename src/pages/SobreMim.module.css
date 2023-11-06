@@ -8,6 +8,7 @@
   align-items: center;
   font-family: "Roboto", sans-serif;
   padding-top: 50px;
+  display: 100%;
 }
 .conteudoSobre {
   display: flex;
