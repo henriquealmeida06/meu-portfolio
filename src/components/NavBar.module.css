@@ -58,7 +58,6 @@ li:hover {
     display: flex;
     gap: 20vh;
     align-items: center;
-    border: 1px solid red;
     max-width: 130vh;
   }
 }
