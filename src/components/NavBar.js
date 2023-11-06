@@ -3,9 +3,15 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 
 function NavBar() {
+  const [menuAberto, setMenuAberto] = useState(false);
+
+  function alternarMenu() {
+    setMenuAberto(!menuAberto);
+  }
+
   return (
     <nav>
-      <div className={styles.menuResponse}>
+      <div className={styles.menuResponse} onClick={alternarMenu}>
         <GiHamburgerMenu />
       </div>
 
@@ -13,7 +19,9 @@ function NavBar() {
         <a href="#home">Portfólio</a>
       </p>
 
-      <div className={styles.menuDesktop}>
+      <div
+        className={`${styles.menuDesktop} ${menuAberto ? styles.active : ""}`}
+      >
         <ul>
           <li>
             <a href="#home">Página Inicial</a>

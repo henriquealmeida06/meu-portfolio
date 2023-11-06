@@ -9,7 +9,7 @@ nav {
   position: fixed;
   border-bottom: 1px solid #8f60fc;
   z-index: 1;
-  width: 100%;
+  max-width: 100%;
 }
 .menuResponse {
   display: none;
