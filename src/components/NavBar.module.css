@@ -1,3 +1,6 @@
+body {
+  width: 100%;
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -58,6 +61,6 @@ li:hover {
     display: flex;
     gap: 20vh;
     align-items: center;
-    max-width: 130vh;
+    max-width: 100%;
   }
 }
