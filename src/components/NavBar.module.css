@@ -9,7 +9,6 @@ nav {
   position: fixed;
   border-bottom: 1px solid #8f60fc;
   z-index: 1;
-  border: 1px solid red;
   width: 100%;
 }
 .menuResponse {
@@ -58,6 +57,5 @@ li:hover {
     justify-content: last baseline;
     gap: 20vh;
     align-items: center;
-    width: ;
   }
 }
